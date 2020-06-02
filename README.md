@@ -25,6 +25,7 @@
 | :relaxed: | `:relaxed:` | smiling face | blush, pleased |
 | :kissing_closed_eyes: | `:kissing_closed_eyes:` | kissing face with closed eyes |  |
 | :kissing_smiling_eyes: | `:kissing_smiling_eyes:` | kissing face with smiling eyes |  |
+| :smiling_face_with_tear: | `:smiling_face_with_tear:` | smiling face with tear |  |
 | :yum: | `:yum:` | face savoring food | tongue, lick |
 | :stuck_out_tongue: | `:stuck_out_tongue:` | face with tongue |  |
 | :stuck_out_tongue_winking_eye: | `:stuck_out_tongue_winking_eye:` | winking face with tongue | prank, silly |
@@ -63,6 +64,7 @@
 | :exploding_head: | `:exploding_head:` | exploding head | mind, blown |
 | :cowboy_hat_face: | `:cowboy_hat_face:` | cowboy hat face |  |
 | :partying_face: | `:partying_face:` | partying face | celebration, birthday |
+| :disguised_face: | `:disguised_face:` | disguised face |  |
 | :sunglasses: | `:sunglasses:` | smiling face with sunglasses | cool |
 | :nerd_face: | `:nerd_face:` | nerd face | geek, glasses |
 | :monocle_face: | `:monocle_face:` | face with monocle |  |
@@ -164,6 +166,7 @@
 | :hand: | `:hand:` <br /> `:raised_hand:` | raised hand | highfive, stop |
 | :vulcan_salute: | `:vulcan_salute:` | vulcan salute | prosper, spock |
 | :ok_hand: | `:ok_hand:` | OK hand |  |
+| :pinched_fingers: | `:pinched_fingers:` | pinched fingers |  |
 | :pinching_hand: | `:pinching_hand:` | pinching hand |  |
 | :v: | `:v:` | victory hand | victory, peace |
 | :crossed_fingers: | `:crossed_fingers:` | crossed fingers | luck, hopeful |
@@ -200,6 +203,8 @@
 | :ear_with_hearing_aid: | `:ear_with_hearing_aid:` | ear with hearing aid |  |
 | :nose: | `:nose:` | nose | smell |
 | :brain: | `:brain:` | brain |  |
+| :anatomical_heart: | `:anatomical_heart:` | anatomical heart |  |
+| :lungs: | `:lungs:` | lungs |  |
 | :tooth: | `:tooth:` | tooth |  |
 | :bone: | `:bone:` | bone |  |
 | :eyes: | `:eyes:` | eyes | look, see, watch |
@@ -214,17 +219,21 @@
 | :blond_haired_person: | `:blond_haired_person:` | person: blond hair |  |
 | :man: | `:man:` | man | mustache, father, dad |
 | :bearded_person: | `:bearded_person:` | man: beard |  |
-| :blond_haired_man: | `:blond_haired_man:` | man: blond hair |  |
 | :red_haired_man: | `:red_haired_man:` | man: red hair |  |
 | :curly_haired_man: | `:curly_haired_man:` | man: curly hair |  |
 | :white_haired_man: | `:white_haired_man:` | man: white hair |  |
 | :bald_man: | `:bald_man:` | man: bald |  |
 | :woman: | `:woman:` | woman | girls |
-| :blond_haired_woman: | `:blond_haired_woman:` <br /> `:blonde_woman:` | woman: blond hair |  |
 | :red_haired_woman: | `:red_haired_woman:` | woman: red hair |  |
+| :person_red_hair: | `:person_red_hair:` | person: red hair |  |
 | :curly_haired_woman: | `:curly_haired_woman:` | woman: curly hair |  |
+| :person_curly_hair: | `:person_curly_hair:` | person: curly hair |  |
 | :white_haired_woman: | `:white_haired_woman:` | woman: white hair |  |
+| :person_white_hair: | `:person_white_hair:` | person: white hair |  |
 | :bald_woman: | `:bald_woman:` | woman: bald |  |
+| :person_bald: | `:person_bald:` | person: bald |  |
+| :blond_haired_woman: | `:blond_haired_woman:` <br /> `:blonde_woman:` | woman: blond hair |  |
+| :blond_haired_man: | `:blond_haired_man:` | man: blond hair |  |
 | :older_adult: | `:older_adult:` | older person |  |
 | :older_man: | `:older_man:` | old man |  |
 | :older_woman: | `:older_woman:` | old woman |  |
@@ -258,36 +267,52 @@
 | :shrug: | `:shrug:` | person shrugging |  |
 | :man_shrugging: | `:man_shrugging:` | man shrugging |  |
 | :woman_shrugging: | `:woman_shrugging:` | woman shrugging |  |
+| :health_worker: | `:health_worker:` | health worker |  |
 | :man_health_worker: | `:man_health_worker:` | man health worker | doctor, nurse |
 | :woman_health_worker: | `:woman_health_worker:` | woman health worker | doctor, nurse |
+| :student: | `:student:` | student |  |
 | :man_student: | `:man_student:` | man student | graduation |
 | :woman_student: | `:woman_student:` | woman student | graduation |
+| :teacher: | `:teacher:` | teacher |  |
 | :man_teacher: | `:man_teacher:` | man teacher | school, professor |
 | :woman_teacher: | `:woman_teacher:` | woman teacher | school, professor |
+| :judge: | `:judge:` | judge |  |
 | :man_judge: | `:man_judge:` | man judge | justice |
 | :woman_judge: | `:woman_judge:` | woman judge | justice |
+| :farmer: | `:farmer:` | farmer |  |
 | :man_farmer: | `:man_farmer:` | man farmer |  |
 | :woman_farmer: | `:woman_farmer:` | woman farmer |  |
+| :cook: | `:cook:` | cook |  |
 | :man_cook: | `:man_cook:` | man cook | chef |
 | :woman_cook: | `:woman_cook:` | woman cook | chef |
+| :mechanic: | `:mechanic:` | mechanic |  |
 | :man_mechanic: | `:man_mechanic:` | man mechanic |  |
 | :woman_mechanic: | `:woman_mechanic:` | woman mechanic |  |
+| :factory_worker: | `:factory_worker:` | factory worker |  |
 | :man_factory_worker: | `:man_factory_worker:` | man factory worker |  |
 | :woman_factory_worker: | `:woman_factory_worker:` | woman factory worker |  |
+| :office_worker: | `:office_worker:` | office worker |  |
 | :man_office_worker: | `:man_office_worker:` | man office worker | business |
 | :woman_office_worker: | `:woman_office_worker:` | woman office worker | business |
+| :scientist: | `:scientist:` | scientist |  |
 | :man_scientist: | `:man_scientist:` | man scientist | research |
 | :woman_scientist: | `:woman_scientist:` | woman scientist | research |
+| :technologist: | `:technologist:` | technologist |  |
 | :man_technologist: | `:man_technologist:` | man technologist | coder |
 | :woman_technologist: | `:woman_technologist:` | woman technologist | coder |
+| :singer: | `:singer:` | singer |  |
 | :man_singer: | `:man_singer:` | man singer | rockstar |
 | :woman_singer: | `:woman_singer:` | woman singer | rockstar |
+| :artist: | `:artist:` | artist |  |
 | :man_artist: | `:man_artist:` | man artist | painter |
 | :woman_artist: | `:woman_artist:` | woman artist | painter |
+| :pilot: | `:pilot:` | pilot |  |
 | :man_pilot: | `:man_pilot:` | man pilot |  |
 | :woman_pilot: | `:woman_pilot:` | woman pilot |  |
+| :astronaut: | `:astronaut:` | astronaut |  |
 | :man_astronaut: | `:man_astronaut:` | man astronaut | space |
 | :woman_astronaut: | `:woman_astronaut:` | woman astronaut | space |
+| :firefighter: | `:firefighter:` | firefighter |  |
 | :man_firefighter: | `:man_firefighter:` | man firefighter |  |
 | :woman_firefighter: | `:woman_firefighter:` | woman firefighter |  |
 | :police_officer: | `:police_officer:` <br /> `:cop:` | police officer | law |
@@ -299,6 +324,7 @@
 | :guard: | `:guard:` | guard |  |
 | :guardsman: | `:guardsman:` | man guard |  |
 | :guardswoman: | `:guardswoman:` | woman guard |  |
+| :ninja: | `:ninja:` | ninja |  |
 | :construction_worker: | `:construction_worker:` | construction worker | helmet |
 | :construction_worker_man: | `:construction_worker_man:` | man construction worker | helmet |
 | :construction_worker_woman: | `:construction_worker_woman:` | woman construction worker | helmet |
@@ -307,15 +333,23 @@
 | :person_with_turban: | `:person_with_turban:` | person wearing turban |  |
 | :man_with_turban: | `:man_with_turban:` | man wearing turban |  |
 | :woman_with_turban: | `:woman_with_turban:` | woman wearing turban |  |
-| :man_with_gua_pi_mao: | `:man_with_gua_pi_mao:` | man with Chinese cap |  |
+| :man_with_gua_pi_mao: | `:man_with_gua_pi_mao:` | person with skullcap |  |
 | :woman_with_headscarf: | `:woman_with_headscarf:` | woman with headscarf | hijab |
-| :man_in_tuxedo: | `:man_in_tuxedo:` | man in tuxedo | groom, marriage, wedding |
-| :bride_with_veil: | `:bride_with_veil:` | bride with veil | marriage, wedding |
+| :person_in_tuxedo: | `:person_in_tuxedo:` | person in tuxedo | groom, marriage, wedding |
+| :man_in_tuxedo: | `:man_in_tuxedo:` | man in tuxedo |  |
+| :woman_in_tuxedo: | `:woman_in_tuxedo:` | woman in tuxedo |  |
+| :person_with_veil: | `:person_with_veil:` | person with veil | marriage, wedding |
+| :man_with_veil: | `:man_with_veil:` | man with veil |  |
+| :woman_with_veil: | `:woman_with_veil:` <br /> `:bride_with_veil:` | woman with veil |  |
 | :pregnant_woman: | `:pregnant_woman:` | pregnant woman |  |
 | :breast_feeding: | `:breast_feeding:` | breast-feeding | nursing |
+| :woman_feeding_baby: | `:woman_feeding_baby:` | woman feeding baby |  |
+| :man_feeding_baby: | `:man_feeding_baby:` | man feeding baby |  |
+| :person_feeding_baby: | `:person_feeding_baby:` | person feeding baby |  |
 | :angel: | `:angel:` | baby angel |  |
 | :santa: | `:santa:` | Santa Claus | christmas |
 | :mrs_claus: | `:mrs_claus:` | Mrs. Claus | santa |
+| :mx_claus: | `:mx_claus:` | mx claus |  |
 | :superhero: | `:superhero:` | superhero |  |
 | :superhero_man: | `:superhero_man:` | man superhero |  |
 | :superhero_woman: | `:superhero_woman:` | woman superhero |  |
@@ -358,10 +392,13 @@
 | :kneeling_person: | `:kneeling_person:` | person kneeling |  |
 | :kneeling_man: | `:kneeling_man:` | man kneeling |  |
 | :kneeling_woman: | `:kneeling_woman:` | woman kneeling |  |
-| :man_with_probing_cane: | `:man_with_probing_cane:` | man with probing cane |  |
-| :woman_with_probing_cane: | `:woman_with_probing_cane:` | woman with probing cane |  |
+| :person_with_probing_cane: | `:person_with_probing_cane:` | person with white cane |  |
+| :man_with_probing_cane: | `:man_with_probing_cane:` | man with white cane |  |
+| :woman_with_probing_cane: | `:woman_with_probing_cane:` | woman with white cane |  |
+| :person_in_motorized_wheelchair: | `:person_in_motorized_wheelchair:` | person in motorized wheelchair |  |
 | :man_in_motorized_wheelchair: | `:man_in_motorized_wheelchair:` | man in motorized wheelchair |  |
 | :woman_in_motorized_wheelchair: | `:woman_in_motorized_wheelchair:` | woman in motorized wheelchair |  |
+| :person_in_manual_wheelchair: | `:person_in_manual_wheelchair:` | person in manual wheelchair |  |
 | :man_in_manual_wheelchair: | `:man_in_manual_wheelchair:` | man in manual wheelchair |  |
 | :woman_in_manual_wheelchair: | `:woman_in_manual_wheelchair:` | woman in manual wheelchair |  |
 | :runner: | `:runner:` <br /> `:running:` | person running | exercise, workout, marathon |
@@ -369,7 +406,7 @@
 | :running_woman: | `:running_woman:` | woman running | exercise, workout, marathon |
 | :woman_dancing: | `:woman_dancing:` <br /> `:dancer:` | woman dancing | dress |
 | :man_dancing: | `:man_dancing:` | man dancing | dancer |
-| :business_suit_levitating: | `:business_suit_levitating:` | man in suit levitating |  |
+| :business_suit_levitating: | `:business_suit_levitating:` | person in suit levitating |  |
 | :dancers: | `:dancers:` | people with bunny ears | bunny |
 | :dancing_men: | `:dancing_men:` | men with bunny ears | bunny |
 | :dancing_women: | `:dancing_women:` | women with bunny ears | bunny |
@@ -468,6 +505,7 @@
 | :speaking_head: | `:speaking_head:` | speaking head |  |
 | :bust_in_silhouette: | `:bust_in_silhouette:` | bust in silhouette | user |
 | :busts_in_silhouette: | `:busts_in_silhouette:` | busts in silhouette | users, group, team |
+| :people_hugging: | `:people_hugging:` | people hugging |  |
 | :footprints: | `:footprints:` | footprints | feet, tracks |
 
 ## Animals & Nature
@@ -488,6 +526,7 @@
 | :raccoon: | `:raccoon:` | raccoon |  |
 | :cat: | `:cat:` | cat face | pet |
 | :cat2: | `:cat2:` | cat |  |
+| :black_cat: | `:black_cat:` | black cat |  |
 | :lion: | `:lion:` | lion |  |
 | :tiger: | `:tiger:` | tiger face |  |
 | :tiger2: | `:tiger2:` | tiger |  |
@@ -497,6 +536,7 @@
 | :unicorn: | `:unicorn:` | unicorn |  |
 | :zebra: | `:zebra:` | zebra |  |
 | :deer: | `:deer:` | deer |  |
+| :bison: | `:bison:` | bison |  |
 | :cow: | `:cow:` | cow face |  |
 | :ox: | `:ox:` | ox |  |
 | :water_buffalo: | `:water_buffalo:` | water buffalo |  |
@@ -513,6 +553,7 @@
 | :llama: | `:llama:` | llama |  |
 | :giraffe: | `:giraffe:` | giraffe |  |
 | :elephant: | `:elephant:` | elephant |  |
+| :mammoth: | `:mammoth:` | mammoth |  |
 | :rhinoceros: | `:rhinoceros:` | rhinoceros |  |
 | :hippopotamus: | `:hippopotamus:` | hippopotamus |  |
 | :mouse: | `:mouse:` | mouse face |  |
@@ -522,9 +563,11 @@
 | :rabbit: | `:rabbit:` | rabbit face | bunny |
 | :rabbit2: | `:rabbit2:` | rabbit |  |
 | :chipmunk: | `:chipmunk:` | chipmunk |  |
+| :beaver: | `:beaver:` | beaver |  |
 | :hedgehog: | `:hedgehog:` | hedgehog |  |
 | :bat: | `:bat:` | bat |  |
 | :bear: | `:bear:` | bear |  |
+| :polar_bear: | `:polar_bear:` | polar bear |  |
 | :koala: | `:koala:` | koala |  |
 | :panda_face: | `:panda_face:` | panda |  |
 | :sloth: | `:sloth:` | sloth |  |
@@ -546,6 +589,8 @@
 | :duck: | `:duck:` | duck |  |
 | :swan: | `:swan:` | swan |  |
 | :owl: | `:owl:` | owl |  |
+| :dodo: | `:dodo:` | dodo |  |
+| :feather: | `:feather:` | feather |  |
 | :flamingo: | `:flamingo:` | flamingo |  |
 | :peacock: | `:peacock:` | peacock |  |
 | :parrot: | `:parrot:` | parrot |  |
@@ -561,6 +606,7 @@
 | :whale: | `:whale:` | spouting whale | sea |
 | :whale2: | `:whale2:` | whale |  |
 | :dolphin: | `:dolphin:` <br /> `:flipper:` | dolphin |  |
+| :seal: | `:seal:` | seal |  |
 | :fish: | `:fish:` | fish |  |
 | :tropical_fish: | `:tropical_fish:` | tropical fish |  |
 | :blowfish: | `:blowfish:` | blowfish |  |
@@ -572,12 +618,16 @@
 | :bug: | `:bug:` | bug |  |
 | :ant: | `:ant:` | ant |  |
 | :bee: | `:bee:` <br /> `:honeybee:` | honeybee |  |
-| :beetle: | `:beetle:` | lady beetle | bug |
+| :beetle: | `:beetle:` | beetle |  |
+| :lady_beetle: | `:lady_beetle:` | lady beetle | bug |
 | :cricket: | `:cricket:` | cricket |  |
+| :cockroach: | `:cockroach:` | cockroach |  |
 | :spider: | `:spider:` | spider |  |
 | :spider_web: | `:spider_web:` | spider web |  |
 | :scorpion: | `:scorpion:` | scorpion |  |
 | :mosquito: | `:mosquito:` | mosquito |  |
+| :fly: | `:fly:` | fly |  |
+| :worm: | `:worm:` | worm |  |
 | :microbe: | `:microbe:` | microbe | germ |
 | :bouquet: | `:bouquet:` | bouquet | flowers |
 | :cherry_blossom: | `:cherry_blossom:` | cherry blossom | flower, spring |
@@ -590,6 +640,7 @@
 | :blossom: | `:blossom:` | blossom |  |
 | :tulip: | `:tulip:` | tulip | flower |
 | :seedling: | `:seedling:` | seedling | plant |
+| :potted_plant: | `:potted_plant:` | potted plant |  |
 | :evergreen_tree: | `:evergreen_tree:` | evergreen tree | wood |
 | :deciduous_tree: | `:deciduous_tree:` | deciduous tree | wood |
 | :palm_tree: | `:palm_tree:` | palm tree |  |
@@ -620,8 +671,10 @@
 | :peach: | `:peach:` | peach |  |
 | :cherries: | `:cherries:` | cherries | fruit |
 | :strawberry: | `:strawberry:` | strawberry | fruit |
+| :blueberries: | `:blueberries:` | blueberries |  |
 | :kiwi_fruit: | `:kiwi_fruit:` | kiwi fruit |  |
 | :tomato: | `:tomato:` | tomato |  |
+| :olive: | `:olive:` | olive |  |
 | :coconut: | `:coconut:` | coconut |  |
 | :avocado: | `:avocado:` | avocado |  |
 | :eggplant: | `:eggplant:` | eggplant | aubergine |
@@ -629,6 +682,7 @@
 | :carrot: | `:carrot:` | carrot |  |
 | :corn: | `:corn:` | ear of corn |  |
 | :hot_pepper: | `:hot_pepper:` | hot pepper | spicy |
+| :bell_pepper: | `:bell_pepper:` | bell pepper |  |
 | :cucumber: | `:cucumber:` | cucumber |  |
 | :leafy_green: | `:leafy_green:` | leafy green |  |
 | :broccoli: | `:broccoli:` | broccoli |  |
@@ -640,6 +694,7 @@
 | :bread: | `:bread:` | bread | toast |
 | :croissant: | `:croissant:` | croissant |  |
 | :baguette_bread: | `:baguette_bread:` | baguette bread |  |
+| :flatbread: | `:flatbread:` | flatbread |  |
 | :pretzel: | `:pretzel:` | pretzel |  |
 | :bagel: | `:bagel:` | bagel |  |
 | :pancakes: | `:pancakes:` | pancakes |  |
@@ -656,12 +711,14 @@
 | :sandwich: | `:sandwich:` | sandwich |  |
 | :taco: | `:taco:` | taco |  |
 | :burrito: | `:burrito:` | burrito |  |
+| :tamale: | `:tamale:` | tamale |  |
 | :stuffed_flatbread: | `:stuffed_flatbread:` | stuffed flatbread |  |
 | :falafel: | `:falafel:` | falafel |  |
 | :egg: | `:egg:` | egg |  |
 | :fried_egg: | `:fried_egg:` | cooking | breakfast |
 | :shallow_pan_of_food: | `:shallow_pan_of_food:` | shallow pan of food | paella, curry |
 | :stew: | `:stew:` | pot of food |  |
+| :fondue: | `:fondue:` | fondue |  |
 | :bowl_with_spoon: | `:bowl_with_spoon:` | bowl with spoon |  |
 | :green_salad: | `:green_salad:` | green salad |  |
 | :popcorn: | `:popcorn:` | popcorn |  |
@@ -707,6 +764,7 @@
 | :baby_bottle: | `:baby_bottle:` | baby bottle | milk |
 | :milk_glass: | `:milk_glass:` | glass of milk |  |
 | :coffee: | `:coffee:` | hot beverage | cafe, espresso |
+| :teapot: | `:teapot:` | teapot |  |
 | :tea: | `:tea:` | teacup without handle | green, breakfast |
 | :sake: | `:sake:` | sake |  |
 | :champagne: | `:champagne:` | bottle with popping cork | bottle, bubbly, celebration |
@@ -718,9 +776,10 @@
 | :clinking_glasses: | `:clinking_glasses:` | clinking glasses | cheers, toast |
 | :tumbler_glass: | `:tumbler_glass:` | tumbler glass | whisky |
 | :cup_with_straw: | `:cup_with_straw:` | cup with straw |  |
+| :bubble_tea: | `:bubble_tea:` | bubble tea |  |
 | :beverage_box: | `:beverage_box:` | beverage box |  |
 | :mate: | `:mate:` | mate |  |
-| :ice_cube: | `:ice_cube:` | ice cube |  |
+| :ice_cube: | `:ice_cube:` | ice |  |
 | :chopsticks: | `:chopsticks:` | chopsticks |  |
 | :plate_with_cutlery: | `:plate_with_cutlery:` | fork and knife with plate | dining, dinner |
 | :fork_and_knife: | `:fork_and_knife:` | fork and knife | cutlery |
@@ -752,6 +811,9 @@
 | :classical_building: | `:classical_building:` | classical building |  |
 | :building_construction: | `:building_construction:` | building construction |  |
 | :bricks: | `:bricks:` | brick |  |
+| :rock: | `:rock:` | rock |  |
+| :wood: | `:wood:` | wood |  |
+| :hut: | `:hut:` | hut |  |
 | :houses: | `:houses:` | houses |  |
 | :derelict_house: | `:derelict_house:` | derelict house |  |
 | :house: | `:house:` | house |  |
@@ -819,6 +881,7 @@
 | :car: | `:car:` <br /> `:red_car:` | automobile |  |
 | :oncoming_automobile: | `:oncoming_automobile:` | oncoming automobile |  |
 | :blue_car: | `:blue_car:` | sport utility vehicle |  |
+| :pickup_truck: | `:pickup_truck:` | pickup truck |  |
 | :truck: | `:truck:` | delivery truck |  |
 | :articulated_lorry: | `:articulated_lorry:` | articulated lorry |  |
 | :tractor: | `:tractor:` | tractor |  |
@@ -831,6 +894,7 @@
 | :bike: | `:bike:` | bicycle | bicycle |
 | :kick_scooter: | `:kick_scooter:` | kick scooter |  |
 | :skateboard: | `:skateboard:` | skateboard |  |
+| :roller_skate: | `:roller_skate:` | roller skate |  |
 | :busstop: | `:busstop:` | bus stop |  |
 | :motorway: | `:motorway:` | motorway |  |
 | :railway_track: | `:railway_track:` | railway track |  |
@@ -1006,6 +1070,7 @@
 | :kite: | `:kite:` | kite |  |
 | :8ball: | `:8ball:` | pool 8 ball | pool, billiards |
 | :crystal_ball: | `:crystal_ball:` | crystal ball | fortune |
+| :magic_wand: | `:magic_wand:` | magic wand |  |
 | :nazar_amulet: | `:nazar_amulet:` | nazar amulet |  |
 | :video_game: | `:video_game:` | video game | play, controller, console |
 | :joystick: | `:joystick:` | joystick |  |
@@ -1013,6 +1078,8 @@
 | :game_die: | `:game_die:` | game die | dice, gambling |
 | :jigsaw: | `:jigsaw:` | puzzle piece |  |
 | :teddy_bear: | `:teddy_bear:` | teddy bear |  |
+| :pi_ata: | `:pi_ata:` | piñata |  |
+| :nesting_dolls: | `:nesting_dolls:` | nesting dolls |  |
 | :spades: | `:spades:` | spade suit |  |
 | :hearts: | `:hearts:` | heart suit |  |
 | :diamonds: | `:diamonds:` | diamond suit |  |
@@ -1025,7 +1092,9 @@
 | :framed_picture: | `:framed_picture:` | framed picture |  |
 | :art: | `:art:` | artist palette | design, paint |
 | :thread: | `:thread:` | thread |  |
+| :sewing_needle: | `:sewing_needle:` | sewing needle |  |
 | :yarn: | `:yarn:` | yarn |  |
+| :knot: | `:knot:` | knot |  |
 
 ## Objects
 
@@ -1047,7 +1116,7 @@
 | :kimono: | `:kimono:` | kimono |  |
 | :sari: | `:sari:` | sari |  |
 | :one_piece_swimsuit: | `:one_piece_swimsuit:` | one-piece swimsuit |  |
-| :swim_brief: | `:swim_brief:` | swim brief |  |
+| :swim_brief: | `:swim_brief:` | briefs |  |
 | :shorts: | `:shorts:` | shorts |  |
 | :bikini: | `:bikini:` | bikini | beach |
 | :womans_clothes: | `:womans_clothes:` | woman’s clothes |  |
@@ -1056,6 +1125,7 @@
 | :pouch: | `:pouch:` | clutch bag | bag |
 | :shopping: | `:shopping:` | shopping bags | bags |
 | :school_satchel: | `:school_satchel:` | backpack |  |
+| :thong_sandal: | `:thong_sandal:` | thong sandal |  |
 | :mans_shoe: | `:mans_shoe:` <br /> `:shoe:` | man’s shoe |  |
 | :athletic_shoe: | `:athletic_shoe:` | running shoe | sneaker, sport, running |
 | :hiking_boot: | `:hiking_boot:` | hiking boot |  |
@@ -1069,6 +1139,7 @@
 | :tophat: | `:tophat:` | top hat | hat, classy |
 | :mortar_board: | `:mortar_board:` | graduation cap | education, college, university, graduation |
 | :billed_cap: | `:billed_cap:` | billed cap |  |
+| :military_helmet: | `:military_helmet:` | military helmet |  |
 | :rescue_worker_helmet: | `:rescue_worker_helmet:` | rescue worker’s helmet |  |
 | :prayer_beads: | `:prayer_beads:` | prayer beads |  |
 | :lipstick: | `:lipstick:` | lipstick | makeup |
@@ -1093,12 +1164,14 @@
 | :headphones: | `:headphones:` | headphone | music, earphones |
 | :radio: | `:radio:` | radio | podcast |
 | :saxophone: | `:saxophone:` | saxophone |  |
+| :accordion: | `:accordion:` | accordion |  |
 | :guitar: | `:guitar:` | guitar | rock |
 | :musical_keyboard: | `:musical_keyboard:` | musical keyboard | piano |
 | :trumpet: | `:trumpet:` | trumpet |  |
 | :violin: | `:violin:` | violin |  |
 | :banjo: | `:banjo:` | banjo |  |
 | :drum: | `:drum:` | drum |  |
+| :long_drum: | `:long_drum:` | long drum |  |
 | :iphone: | `:iphone:` | mobile phone | smartphone, mobile |
 | :calling: | `:calling:` | mobile phone with arrow | call, incoming |
 | :phone: | `:phone:` <br /> `:telephone:` | telephone |  |
@@ -1107,7 +1180,7 @@
 | :fax: | `:fax:` | fax machine |  |
 | :battery: | `:battery:` | battery | power |
 | :electric_plug: | `:electric_plug:` | electric plug |  |
-| :computer: | `:computer:` | laptop computer | desktop, screen |
+| :computer: | `:computer:` | laptop | desktop, screen |
 | :desktop_computer: | `:desktop_computer:` | desktop computer |  |
 | :printer: | `:printer:` | printer |  |
 | :keyboard: | `:keyboard:` | keyboard |  |
@@ -1152,6 +1225,7 @@
 | :bookmark: | `:bookmark:` | bookmark |  |
 | :label: | `:label:` | label | tag |
 | :moneybag: | `:moneybag:` | money bag | dollar, cream |
+| :coin: | `:coin:` | coin |  |
 | :yen: | `:yen:` | yen banknote |  |
 | :dollar: | `:dollar:` | dollar banknote | money |
 | :euro: | `:euro:` | euro banknote |  |
@@ -1160,8 +1234,6 @@
 | :credit_card: | `:credit_card:` | credit card | subscription |
 | :receipt: | `:receipt:` | receipt |  |
 | :chart: | `:chart:` | chart increasing with yen |  |
-| :currency_exchange: | `:currency_exchange:` | currency exchange |  |
-| :heavy_dollar_sign: | `:heavy_dollar_sign:` | heavy dollar sign |  |
 | :email: | `:email:` <br /> `:envelope:` | envelope | letter |
 | :e-mail: | `:e-mail:` | e-mail |  |
 | :incoming_envelope: | `:incoming_envelope:` | incoming envelope |  |
@@ -1219,18 +1291,23 @@
 | :dagger: | `:dagger:` | dagger |  |
 | :crossed_swords: | `:crossed_swords:` | crossed swords |  |
 | :gun: | `:gun:` | pistol | shoot, weapon |
+| :boomerang: | `:boomerang:` | boomerang |  |
 | :bow_and_arrow: | `:bow_and_arrow:` | bow and arrow | archery |
 | :shield: | `:shield:` | shield |  |
+| :carpentry_saw: | `:carpentry_saw:` | carpentry saw |  |
 | :wrench: | `:wrench:` | wrench | tool |
+| :screwdriver: | `:screwdriver:` | screwdriver |  |
 | :nut_and_bolt: | `:nut_and_bolt:` | nut and bolt |  |
 | :gear: | `:gear:` | gear |  |
 | :clamp: | `:clamp:` | clamp |  |
 | :balance_scale: | `:balance_scale:` | balance scale |  |
-| :probing_cane: | `:probing_cane:` | probing cane |  |
+| :probing_cane: | `:probing_cane:` | white cane |  |
 | :link: | `:link:` | link |  |
 | :chains: | `:chains:` | chains |  |
+| :hook: | `:hook:` | hook |  |
 | :toolbox: | `:toolbox:` | toolbox |  |
 | :magnet: | `:magnet:` | magnet |  |
+| :ladder: | `:ladder:` | ladder |  |
 | :alembic: | `:alembic:` | alembic |  |
 | :test_tube: | `:test_tube:` | test tube |  |
 | :petri_dish: | `:petri_dish:` | petri dish |  |
@@ -1244,26 +1321,35 @@
 | :adhesive_bandage: | `:adhesive_bandage:` | adhesive bandage |  |
 | :stethoscope: | `:stethoscope:` | stethoscope |  |
 | :door: | `:door:` | door |  |
+| :elevator: | `:elevator:` | elevator |  |
+| :mirror: | `:mirror:` | mirror |  |
+| :window: | `:window:` | window |  |
 | :bed: | `:bed:` | bed |  |
 | :couch_and_lamp: | `:couch_and_lamp:` | couch and lamp |  |
 | :chair: | `:chair:` | chair |  |
 | :toilet: | `:toilet:` | toilet | wc |
+| :plunger: | `:plunger:` | plunger |  |
 | :shower: | `:shower:` | shower | bath |
 | :bathtub: | `:bathtub:` | bathtub |  |
+| :mouse_trap: | `:mouse_trap:` | mouse trap |  |
 | :razor: | `:razor:` | razor |  |
 | :lotion_bottle: | `:lotion_bottle:` | lotion bottle |  |
 | :safety_pin: | `:safety_pin:` | safety pin |  |
 | :broom: | `:broom:` | broom |  |
 | :basket: | `:basket:` | basket |  |
 | :roll_of_paper: | `:roll_of_paper:` | roll of paper | toilet |
+| :bucket: | `:bucket:` | bucket |  |
 | :soap: | `:soap:` | soap |  |
+| :toothbrush: | `:toothbrush:` | toothbrush |  |
 | :sponge: | `:sponge:` | sponge |  |
 | :fire_extinguisher: | `:fire_extinguisher:` | fire extinguisher |  |
 | :shopping_cart: | `:shopping_cart:` | shopping cart |  |
 | :smoking: | `:smoking:` | cigarette | cigarette |
 | :coffin: | `:coffin:` | coffin | funeral |
+| :headstone: | `:headstone:` | headstone |  |
 | :funeral_urn: | `:funeral_urn:` | funeral urn |  |
 | :moyai: | `:moyai:` | moai | stone |
+| :placard: | `:placard:` | placard |  |
 
 ## Symbols
 
@@ -1367,8 +1453,22 @@
 | :mobile_phone_off: | `:mobile_phone_off:` | mobile phone off | mute, off |
 | :female_sign: | `:female_sign:` | female sign |  |
 | :male_sign: | `:male_sign:` | male sign |  |
-| :medical_symbol: | `:medical_symbol:` | medical symbol |  |
+| :transgender_symbol: | `:transgender_symbol:` | transgender symbol |  |
+| :heavy_multiplication_x: | `:heavy_multiplication_x:` | multiply |  |
+| :heavy_plus_sign: | `:heavy_plus_sign:` | plus |  |
+| :heavy_minus_sign: | `:heavy_minus_sign:` | minus |  |
+| :heavy_division_sign: | `:heavy_division_sign:` | divide |  |
 | :infinity: | `:infinity:` | infinity |  |
+| :bangbang: | `:bangbang:` | double exclamation mark |  |
+| :interrobang: | `:interrobang:` | exclamation question mark |  |
+| :question: | `:question:` | question mark | confused |
+| :grey_question: | `:grey_question:` | white question mark |  |
+| :grey_exclamation: | `:grey_exclamation:` | white exclamation mark |  |
+| :exclamation: | `:exclamation:` <br /> `:heavy_exclamation_mark:` | exclamation mark | bang |
+| :wavy_dash: | `:wavy_dash:` | wavy dash |  |
+| :currency_exchange: | `:currency_exchange:` | currency exchange |  |
+| :heavy_dollar_sign: | `:heavy_dollar_sign:` | heavy dollar sign |  |
+| :medical_symbol: | `:medical_symbol:` | medical symbol |  |
 | :recycle: | `:recycle:` | recycling symbol | environment, green |
 | :fleur_de_lis: | `:fleur_de_lis:` | fleur-de-lis |  |
 | :trident: | `:trident:` | trident emblem |  |
@@ -1378,25 +1478,14 @@
 | :white_check_mark: | `:white_check_mark:` | check mark button |  |
 | :ballot_box_with_check: | `:ballot_box_with_check:` | check box with check |  |
 | :heavy_check_mark: | `:heavy_check_mark:` | check mark |  |
-| :heavy_multiplication_x: | `:heavy_multiplication_x:` | multiplication sign |  |
 | :x: | `:x:` | cross mark |  |
 | :negative_squared_cross_mark: | `:negative_squared_cross_mark:` | cross mark button |  |
-| :heavy_plus_sign: | `:heavy_plus_sign:` | plus sign |  |
-| :heavy_minus_sign: | `:heavy_minus_sign:` | minus sign |  |
-| :heavy_division_sign: | `:heavy_division_sign:` | division sign |  |
 | :curly_loop: | `:curly_loop:` | curly loop |  |
 | :loop: | `:loop:` | double curly loop |  |
 | :part_alternation_mark: | `:part_alternation_mark:` | part alternation mark |  |
 | :eight_spoked_asterisk: | `:eight_spoked_asterisk:` | eight-spoked asterisk |  |
 | :eight_pointed_black_star: | `:eight_pointed_black_star:` | eight-pointed star |  |
 | :sparkle: | `:sparkle:` | sparkle |  |
-| :bangbang: | `:bangbang:` | double exclamation mark |  |
-| :interrobang: | `:interrobang:` | exclamation question mark |  |
-| :question: | `:question:` | question mark | confused |
-| :grey_question: | `:grey_question:` | white question mark |  |
-| :grey_exclamation: | `:grey_exclamation:` | white exclamation mark |  |
-| :exclamation: | `:exclamation:` <br /> `:heavy_exclamation_mark:` | exclamation mark | bang |
-| :wavy_dash: | `:wavy_dash:` | wavy dash |  |
 | :copyright: | `:copyright:` | copyright |  |
 | :registered: | `:registered:` | registered |  |
 | :tm: | `:tm:` | trade mark | trademark |
@@ -1497,6 +1586,7 @@
 | :black_flag: | `:black_flag:` | black flag |  |
 | :white_flag: | `:white_flag:` | white flag |  |
 | :rainbow_flag: | `:rainbow_flag:` | rainbow flag | pride |
+| :transgender_flag: | `:transgender_flag:` | transgender flag |  |
 | :pirate_flag: | `:pirate_flag:` | pirate flag |  |
 | :ascension_island: | `:ascension_island:` | flag: Ascension Island |  |
 | :andorra: | `:andorra:` | flag: Andorra |  |
@@ -1647,7 +1737,7 @@
 | :st_martin: | `:st_martin:` | flag: St. Martin |  |
 | :madagascar: | `:madagascar:` | flag: Madagascar |  |
 | :marshall_islands: | `:marshall_islands:` | flag: Marshall Islands |  |
-| :macedonia: | `:macedonia:` | flag: Macedonia |  |
+| :macedonia: | `:macedonia:` | flag: North Macedonia |  |
 | :mali: | `:mali:` | flag: Mali |  |
 | :myanmar: | `:myanmar:` | flag: Myanmar (Burma) | burma |
 | :mongolia: | `:mongolia:` | flag: Mongolia |  |
