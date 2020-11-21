@@ -10,7 +10,7 @@ const postamble = '\n# Build\n\nThis file is generated from the data in https://
 
 const heading = '\n## {0}\n\n';
 const header = '| Emoji | Aliases | Description | Tags |\n| --- | --- | --- | --- |\n';
-const row = '| :{0}: | {1} | {2} | {3} |\n';
+const row = '| <span id="{0}">:{1}:</span> | {2} | {3} | {4} |\n';
 const cell = '`:{0}:`';
 
 request.get({
@@ -46,9 +46,10 @@ request.get({
 
                 result += row
                     .replace('{0}', emoji.aliases[0])
-                    .replace('{1}', aliases)
-                    .replace('{2}', emoji.description || '')
-                    .replace('{3}', emoji.tags.join(', '));
+                    .replace('{1}', emoji.aliases[0])
+                    .replace('{2}', aliases)
+                    .replace('{3}', emoji.description || '')
+                    .replace('{4}', emoji.tags.join(', '));
             }
         }
 
