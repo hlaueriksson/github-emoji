@@ -1078,7 +1078,7 @@
 | :game_die: | `:game_die:` | game die | dice, gambling |
 | :jigsaw: | `:jigsaw:` | puzzle piece |  |
 | :teddy_bear: | `:teddy_bear:` | teddy bear |  |
-| :pi_ata: | `:pi_ata:` | piñata |  |
+| :pinata: | `:pinata:` | piñata |  |
 | :nesting_dolls: | `:nesting_dolls:` | nesting dolls |  |
 | :spades: | `:spades:` | spade suit |  |
 | :hearts: | `:hearts:` | heart suit |  |
@@ -1234,8 +1234,8 @@
 | :credit_card: | `:credit_card:` | credit card | subscription |
 | :receipt: | `:receipt:` | receipt |  |
 | :chart: | `:chart:` | chart increasing with yen |  |
-| :email: | `:email:` <br /> `:envelope:` | envelope | letter |
-| :e-mail: | `:e-mail:` | e-mail |  |
+| :envelope: | `:envelope:` | envelope | letter, email |
+| :email: | `:email:` <br /> `:e-mail:` | e-mail |  |
 | :incoming_envelope: | `:incoming_envelope:` | incoming envelope |  |
 | :envelope_with_arrow: | `:envelope_with_arrow:` | envelope with arrow |  |
 | :outbox_tray: | `:outbox_tray:` | outbox tray |  |
