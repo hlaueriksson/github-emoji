@@ -41,10 +41,12 @@
 | <span id="neutral_face">:neutral_face:</span> | `:neutral_face:` | neutral face | meh |
 | <span id="expressionless">:expressionless:</span> | `:expressionless:` | expressionless face |  |
 | <span id="no_mouth">:no_mouth:</span> | `:no_mouth:` | face without mouth | mute, silence |
+| <span id="face_in_clouds">:face_in_clouds:</span> | `:face_in_clouds:` | face in clouds |  |
 | <span id="smirk">:smirk:</span> | `:smirk:` | smirking face | smug |
 | <span id="unamused">:unamused:</span> | `:unamused:` | unamused face | meh |
 | <span id="roll_eyes">:roll_eyes:</span> | `:roll_eyes:` | face with rolling eyes |  |
 | <span id="grimacing">:grimacing:</span> | `:grimacing:` | grimacing face |  |
+| <span id="face_exhaling">:face_exhaling:</span> | `:face_exhaling:` | face exhaling |  |
 | <span id="lying_face">:lying_face:</span> | `:lying_face:` | lying face | liar |
 | <span id="relieved">:relieved:</span> | `:relieved:` | relieved face | whew |
 | <span id="pensive">:pensive:</span> | `:pensive:` | pensive face |  |
@@ -60,7 +62,8 @@
 | <span id="hot_face">:hot_face:</span> | `:hot_face:` | hot face | heat, sweating |
 | <span id="cold_face">:cold_face:</span> | `:cold_face:` | cold face | freezing, ice |
 | <span id="woozy_face">:woozy_face:</span> | `:woozy_face:` | woozy face | groggy |
-| <span id="dizzy_face">:dizzy_face:</span> | `:dizzy_face:` | dizzy face |  |
+| <span id="dizzy_face">:dizzy_face:</span> | `:dizzy_face:` | knocked-out face |  |
+| <span id="face_with_spiral_eyes">:face_with_spiral_eyes:</span> | `:face_with_spiral_eyes:` | face with spiral eyes |  |
 | <span id="exploding_head">:exploding_head:</span> | `:exploding_head:` | exploding head | mind, blown |
 | <span id="cowboy_hat_face">:cowboy_hat_face:</span> | `:cowboy_hat_face:` | cowboy hat face |  |
 | <span id="partying_face">:partying_face:</span> | `:partying_face:` | partying face | celebration, birthday |
@@ -132,6 +135,8 @@
 | <span id="heart_decoration">:heart_decoration:</span> | `:heart_decoration:` | heart decoration |  |
 | <span id="heavy_heart_exclamation">:heavy_heart_exclamation:</span> | `:heavy_heart_exclamation:` | heart exclamation |  |
 | <span id="broken_heart">:broken_heart:</span> | `:broken_heart:` | broken heart |  |
+| <span id="heart_on_fire">:heart_on_fire:</span> | `:heart_on_fire:` | heart on fire |  |
+| <span id="mending_heart">:mending_heart:</span> | `:mending_heart:` | mending heart |  |
 | <span id="heart">:heart:</span> | `:heart:` | red heart | love |
 | <span id="orange_heart">:orange_heart:</span> | `:orange_heart:` | orange heart |  |
 | <span id="yellow_heart">:yellow_heart:</span> | `:yellow_heart:` | yellow heart |  |
@@ -218,7 +223,9 @@
 | <span id="adult">:adult:</span> | `:adult:` | person |  |
 | <span id="blond_haired_person">:blond_haired_person:</span> | `:blond_haired_person:` | person: blond hair |  |
 | <span id="man">:man:</span> | `:man:` | man | mustache, father, dad |
-| <span id="bearded_person">:bearded_person:</span> | `:bearded_person:` | man: beard |  |
+| <span id="bearded_person">:bearded_person:</span> | `:bearded_person:` | person: beard |  |
+| <span id="man_beard">:man_beard:</span> | `:man_beard:` | man: beard |  |
+| <span id="woman_beard">:woman_beard:</span> | `:woman_beard:` | woman: beard |  |
 | <span id="red_haired_man">:red_haired_man:</span> | `:red_haired_man:` | man: red hair |  |
 | <span id="curly_haired_man">:curly_haired_man:</span> | `:curly_haired_man:` | man: curly hair |  |
 | <span id="white_haired_man">:white_haired_man:</span> | `:white_haired_man:` | man: white hair |  |
@@ -1065,7 +1072,7 @@
 | <span id="ski">:ski:</span> | `:ski:` | skis |  |
 | <span id="sled">:sled:</span> | `:sled:` | sled |  |
 | <span id="curling_stone">:curling_stone:</span> | `:curling_stone:` | curling stone |  |
-| <span id="dart">:dart:</span> | `:dart:` | direct hit | target |
+| <span id="dart">:dart:</span> | `:dart:` | bullseye | target |
 | <span id="yo_yo">:yo_yo:</span> | `:yo_yo:` | yo-yo |  |
 | <span id="kite">:kite:</span> | `:kite:` | kite |  |
 | <span id="8ball">:8ball:</span> | `:8ball:` | pool 8 ball | pool, billiards |
@@ -1290,7 +1297,7 @@
 | <span id="hammer_and_wrench">:hammer_and_wrench:</span> | `:hammer_and_wrench:` | hammer and wrench |  |
 | <span id="dagger">:dagger:</span> | `:dagger:` | dagger |  |
 | <span id="crossed_swords">:crossed_swords:</span> | `:crossed_swords:` | crossed swords |  |
-| <span id="gun">:gun:</span> | `:gun:` | pistol | shoot, weapon |
+| <span id="gun">:gun:</span> | `:gun:` | water pistol | shoot, weapon |
 | <span id="boomerang">:boomerang:</span> | `:boomerang:` | boomerang |  |
 | <span id="bow_and_arrow">:bow_and_arrow:</span> | `:bow_and_arrow:` | bow and arrow | archery |
 | <span id="shield">:shield:</span> | `:shield:` | shield |  |
@@ -1461,10 +1468,10 @@
 | <span id="infinity">:infinity:</span> | `:infinity:` | infinity |  |
 | <span id="bangbang">:bangbang:</span> | `:bangbang:` | double exclamation mark |  |
 | <span id="interrobang">:interrobang:</span> | `:interrobang:` | exclamation question mark |  |
-| <span id="question">:question:</span> | `:question:` | question mark | confused |
+| <span id="question">:question:</span> | `:question:` | red question mark | confused |
 | <span id="grey_question">:grey_question:</span> | `:grey_question:` | white question mark |  |
 | <span id="grey_exclamation">:grey_exclamation:</span> | `:grey_exclamation:` | white exclamation mark |  |
-| <span id="exclamation">:exclamation:</span> | `:exclamation:` <br /> `:heavy_exclamation_mark:` | exclamation mark | bang |
+| <span id="exclamation">:exclamation:</span> | `:exclamation:` <br /> `:heavy_exclamation_mark:` | red exclamation mark | bang |
 | <span id="wavy_dash">:wavy_dash:</span> | `:wavy_dash:` | wavy dash |  |
 | <span id="currency_exchange">:currency_exchange:</span> | `:currency_exchange:` | currency exchange |  |
 | <span id="heavy_dollar_sign">:heavy_dollar_sign:</span> | `:heavy_dollar_sign:` | heavy dollar sign |  |
