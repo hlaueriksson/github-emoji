@@ -14,6 +14,7 @@
 | <span id="joy">:joy:</span> | `:joy:` | face with tears of joy | tears |
 | <span id="slightly_smiling_face">:slightly_smiling_face:</span> | `:slightly_smiling_face:` | slightly smiling face |  |
 | <span id="upside_down_face">:upside_down_face:</span> | `:upside_down_face:` | upside-down face |  |
+| <span id="melting_face">:melting_face:</span> | `:melting_face:` | melting face | sarcasm, dread |
 | <span id="wink">:wink:</span> | `:wink:` | winking face | flirt |
 | <span id="blush">:blush:</span> | `:blush:` | smiling face with smiling eyes | proud |
 | <span id="innocent">:innocent:</span> | `:innocent:` | smiling face with halo | angel |
@@ -32,15 +33,19 @@
 | <span id="zany_face">:zany_face:</span> | `:zany_face:` | zany face | goofy, wacky |
 | <span id="stuck_out_tongue_closed_eyes">:stuck_out_tongue_closed_eyes:</span> | `:stuck_out_tongue_closed_eyes:` | squinting face with tongue | prank |
 | <span id="money_mouth_face">:money_mouth_face:</span> | `:money_mouth_face:` | money-mouth face | rich |
-| <span id="hugs">:hugs:</span> | `:hugs:` | hugging face |  |
+| <span id="hugs">:hugs:</span> | `:hugs:` | smiling face with open hands |  |
 | <span id="hand_over_mouth">:hand_over_mouth:</span> | `:hand_over_mouth:` | face with hand over mouth | quiet, whoops |
+| <span id="face_with_open_eyes_and_hand_over_mouth">:face_with_open_eyes_and_hand_over_mouth:</span> | `:face_with_open_eyes_and_hand_over_mouth:` | face with open eyes and hand over mouth | gasp, shock |
+| <span id="face_with_peeking_eye">:face_with_peeking_eye:</span> | `:face_with_peeking_eye:` | face with peeking eye |  |
 | <span id="shushing_face">:shushing_face:</span> | `:shushing_face:` | shushing face | silence, quiet |
 | <span id="thinking">:thinking:</span> | `:thinking:` | thinking face |  |
+| <span id="saluting_face">:saluting_face:</span> | `:saluting_face:` | saluting face | respect |
 | <span id="zipper_mouth_face">:zipper_mouth_face:</span> | `:zipper_mouth_face:` | zipper-mouth face | silence, hush |
 | <span id="raised_eyebrow">:raised_eyebrow:</span> | `:raised_eyebrow:` | face with raised eyebrow | suspicious |
 | <span id="neutral_face">:neutral_face:</span> | `:neutral_face:` | neutral face | meh |
 | <span id="expressionless">:expressionless:</span> | `:expressionless:` | expressionless face |  |
 | <span id="no_mouth">:no_mouth:</span> | `:no_mouth:` | face without mouth | mute, silence |
+| <span id="dotted_line_face">:dotted_line_face:</span> | `:dotted_line_face:` | dotted line face | invisible |
 | <span id="face_in_clouds">:face_in_clouds:</span> | `:face_in_clouds:` | face in clouds |  |
 | <span id="smirk">:smirk:</span> | `:smirk:` | smirking face | smug |
 | <span id="unamused">:unamused:</span> | `:unamused:` | unamused face | meh |
@@ -62,7 +67,7 @@
 | <span id="hot_face">:hot_face:</span> | `:hot_face:` | hot face | heat, sweating |
 | <span id="cold_face">:cold_face:</span> | `:cold_face:` | cold face | freezing, ice |
 | <span id="woozy_face">:woozy_face:</span> | `:woozy_face:` | woozy face | groggy |
-| <span id="dizzy_face">:dizzy_face:</span> | `:dizzy_face:` | knocked-out face |  |
+| <span id="dizzy_face">:dizzy_face:</span> | `:dizzy_face:` | face with crossed-out eyes |  |
 | <span id="face_with_spiral_eyes">:face_with_spiral_eyes:</span> | `:face_with_spiral_eyes:` | face with spiral eyes |  |
 | <span id="exploding_head">:exploding_head:</span> | `:exploding_head:` | exploding head | mind, blown |
 | <span id="cowboy_hat_face">:cowboy_hat_face:</span> | `:cowboy_hat_face:` | cowboy hat face |  |
@@ -72,6 +77,7 @@
 | <span id="nerd_face">:nerd_face:</span> | `:nerd_face:` | nerd face | geek, glasses |
 | <span id="monocle_face">:monocle_face:</span> | `:monocle_face:` | face with monocle |  |
 | <span id="confused">:confused:</span> | `:confused:` | confused face |  |
+| <span id="face_with_diagonal_mouth">:face_with_diagonal_mouth:</span> | `:face_with_diagonal_mouth:` | face with diagonal mouth | confused |
 | <span id="worried">:worried:</span> | `:worried:` | worried face | nervous |
 | <span id="slightly_frowning_face">:slightly_frowning_face:</span> | `:slightly_frowning_face:` | slightly frowning face |  |
 | <span id="frowning_face">:frowning_face:</span> | `:frowning_face:` | frowning face |  |
@@ -80,6 +86,7 @@
 | <span id="astonished">:astonished:</span> | `:astonished:` | astonished face | amazed, gasp |
 | <span id="flushed">:flushed:</span> | `:flushed:` | flushed face |  |
 | <span id="pleading_face">:pleading_face:</span> | `:pleading_face:` | pleading face | puppy, eyes |
+| <span id="face_holding_back_tears">:face_holding_back_tears:</span> | `:face_holding_back_tears:` | face holding back tears | tears, gratitude |
 | <span id="frowning">:frowning:</span> | `:frowning:` | frowning face with open mouth |  |
 | <span id="anguished">:anguished:</span> | `:anguished:` | anguished face | stunned |
 | <span id="fearful">:fearful:</span> | `:fearful:` | fearful face | scared, shocked, oops |
@@ -170,11 +177,16 @@
 | <span id="raised_hand_with_fingers_splayed">:raised_hand_with_fingers_splayed:</span> | `:raised_hand_with_fingers_splayed:` | hand with fingers splayed |  |
 | <span id="hand">:hand:</span> | `:hand:` <br /> `:raised_hand:` | raised hand | highfive, stop |
 | <span id="vulcan_salute">:vulcan_salute:</span> | `:vulcan_salute:` | vulcan salute | prosper, spock |
+| <span id="rightwards_hand">:rightwards_hand:</span> | `:rightwards_hand:` | rightwards hand |  |
+| <span id="leftwards_hand">:leftwards_hand:</span> | `:leftwards_hand:` | leftwards hand |  |
+| <span id="palm_down_hand">:palm_down_hand:</span> | `:palm_down_hand:` | palm down hand |  |
+| <span id="palm_up_hand">:palm_up_hand:</span> | `:palm_up_hand:` | palm up hand |  |
 | <span id="ok_hand">:ok_hand:</span> | `:ok_hand:` | OK hand |  |
 | <span id="pinched_fingers">:pinched_fingers:</span> | `:pinched_fingers:` | pinched fingers |  |
 | <span id="pinching_hand">:pinching_hand:</span> | `:pinching_hand:` | pinching hand |  |
 | <span id="v">:v:</span> | `:v:` | victory hand | victory, peace |
 | <span id="crossed_fingers">:crossed_fingers:</span> | `:crossed_fingers:` | crossed fingers | luck, hopeful |
+| <span id="hand_with_index_finger_and_thumb_crossed">:hand_with_index_finger_and_thumb_crossed:</span> | `:hand_with_index_finger_and_thumb_crossed:` | hand with index finger and thumb crossed |  |
 | <span id="love_you_gesture">:love_you_gesture:</span> | `:love_you_gesture:` | love-you gesture |  |
 | <span id="metal">:metal:</span> | `:metal:` | sign of the horns |  |
 | <span id="call_me_hand">:call_me_hand:</span> | `:call_me_hand:` | call me hand |  |
@@ -184,6 +196,7 @@
 | <span id="middle_finger">:middle_finger:</span> | `:middle_finger:` <br /> `:fu:` | middle finger |  |
 | <span id="point_down">:point_down:</span> | `:point_down:` | backhand index pointing down |  |
 | <span id="point_up">:point_up:</span> | `:point_up:` | index pointing up |  |
+| <span id="index_pointing_at_the_viewer">:index_pointing_at_the_viewer:</span> | `:index_pointing_at_the_viewer:` | index pointing at the viewer |  |
 | <span id="+1">:+1:</span> | `:+1:` <br /> `:thumbsup:` | thumbs up | approve, ok |
 | <span id="-1">:-1:</span> | `:-1:` <br /> `:thumbsdown:` | thumbs down | disapprove, bury |
 | <span id="fist_raised">:fist_raised:</span> | `:fist_raised:` <br /> `:fist:` | raised fist | power |
@@ -192,6 +205,7 @@
 | <span id="fist_right">:fist_right:</span> | `:fist_right:` | right-facing fist |  |
 | <span id="clap">:clap:</span> | `:clap:` | clapping hands | praise, applause |
 | <span id="raised_hands">:raised_hands:</span> | `:raised_hands:` | raising hands | hooray |
+| <span id="heart_hands">:heart_hands:</span> | `:heart_hands:` | heart hands | love |
 | <span id="open_hands">:open_hands:</span> | `:open_hands:` | open hands |  |
 | <span id="palms_up_together">:palms_up_together:</span> | `:palms_up_together:` | palms up together |  |
 | <span id="handshake">:handshake:</span> | `:handshake:` | handshake | deal |
@@ -216,6 +230,7 @@
 | <span id="eye">:eye:</span> | `:eye:` | eye |  |
 | <span id="tongue">:tongue:</span> | `:tongue:` | tongue | taste |
 | <span id="lips">:lips:</span> | `:lips:` | mouth | kiss |
+| <span id="biting_lip">:biting_lip:</span> | `:biting_lip:` | biting lip |  |
 | <span id="baby">:baby:</span> | `:baby:` | baby | child, newborn |
 | <span id="child">:child:</span> | `:child:` | child |  |
 | <span id="boy">:boy:</span> | `:boy:` | boy | child |
@@ -335,6 +350,7 @@
 | <span id="construction_worker">:construction_worker:</span> | `:construction_worker:` | construction worker | helmet |
 | <span id="construction_worker_man">:construction_worker_man:</span> | `:construction_worker_man:` | man construction worker | helmet |
 | <span id="construction_worker_woman">:construction_worker_woman:</span> | `:construction_worker_woman:` | woman construction worker | helmet |
+| <span id="person_with_crown">:person_with_crown:</span> | `:person_with_crown:` | person with crown |  |
 | <span id="prince">:prince:</span> | `:prince:` | prince | crown, royal |
 | <span id="princess">:princess:</span> | `:princess:` | princess | crown, royal |
 | <span id="person_with_turban">:person_with_turban:</span> | `:person_with_turban:` | person wearing turban |  |
@@ -349,6 +365,8 @@
 | <span id="man_with_veil">:man_with_veil:</span> | `:man_with_veil:` | man with veil |  |
 | <span id="woman_with_veil">:woman_with_veil:</span> | `:woman_with_veil:` <br /> `:bride_with_veil:` | woman with veil |  |
 | <span id="pregnant_woman">:pregnant_woman:</span> | `:pregnant_woman:` | pregnant woman |  |
+| <span id="pregnant_man">:pregnant_man:</span> | `:pregnant_man:` | pregnant man |  |
+| <span id="pregnant_person">:pregnant_person:</span> | `:pregnant_person:` | pregnant person |  |
 | <span id="breast_feeding">:breast_feeding:</span> | `:breast_feeding:` | breast-feeding | nursing |
 | <span id="woman_feeding_baby">:woman_feeding_baby:</span> | `:woman_feeding_baby:` | woman feeding baby |  |
 | <span id="man_feeding_baby">:man_feeding_baby:</span> | `:man_feeding_baby:` | man feeding baby |  |
@@ -384,6 +402,7 @@
 | <span id="zombie">:zombie:</span> | `:zombie:` | zombie |  |
 | <span id="zombie_man">:zombie_man:</span> | `:zombie_man:` | man zombie |  |
 | <span id="zombie_woman">:zombie_woman:</span> | `:zombie_woman:` | woman zombie |  |
+| <span id="troll">:troll:</span> | `:troll:` | troll |  |
 | <span id="massage">:massage:</span> | `:massage:` | person getting massage | spa |
 | <span id="massage_man">:massage_man:</span> | `:massage_man:` | man getting massage | spa |
 | <span id="massage_woman">:massage_woman:</span> | `:massage_woman:` | woman getting massage | spa |
@@ -620,6 +639,7 @@
 | <span id="shark">:shark:</span> | `:shark:` | shark |  |
 | <span id="octopus">:octopus:</span> | `:octopus:` | octopus |  |
 | <span id="shell">:shell:</span> | `:shell:` | spiral shell | sea, beach |
+| <span id="coral">:coral:</span> | `:coral:` | coral |  |
 | <span id="snail">:snail:</span> | `:snail:` | snail | slow |
 | <span id="butterfly">:butterfly:</span> | `:butterfly:` | butterfly |  |
 | <span id="bug">:bug:</span> | `:bug:` | bug |  |
@@ -639,6 +659,7 @@
 | <span id="bouquet">:bouquet:</span> | `:bouquet:` | bouquet | flowers |
 | <span id="cherry_blossom">:cherry_blossom:</span> | `:cherry_blossom:` | cherry blossom | flower, spring |
 | <span id="white_flower">:white_flower:</span> | `:white_flower:` | white flower |  |
+| <span id="lotus">:lotus:</span> | `:lotus:` | lotus |  |
 | <span id="rosette">:rosette:</span> | `:rosette:` | rosette |  |
 | <span id="rose">:rose:</span> | `:rose:` | rose | flower |
 | <span id="wilted_flower">:wilted_flower:</span> | `:wilted_flower:` | wilted flower |  |
@@ -659,6 +680,8 @@
 | <span id="maple_leaf">:maple_leaf:</span> | `:maple_leaf:` | maple leaf | canada |
 | <span id="fallen_leaf">:fallen_leaf:</span> | `:fallen_leaf:` | fallen leaf | autumn |
 | <span id="leaves">:leaves:</span> | `:leaves:` | leaf fluttering in wind | leaf |
+| <span id="empty_nest">:empty_nest:</span> | `:empty_nest:` | empty nest |  |
+| <span id="nest_with_eggs">:nest_with_eggs:</span> | `:nest_with_eggs:` | nest with eggs |  |
 
 ## Food & Drink
 
@@ -697,6 +720,7 @@
 | <span id="onion">:onion:</span> | `:onion:` | onion |  |
 | <span id="mushroom">:mushroom:</span> | `:mushroom:` | mushroom |  |
 | <span id="peanuts">:peanuts:</span> | `:peanuts:` | peanuts |  |
+| <span id="beans">:beans:</span> | `:beans:` | beans |  |
 | <span id="chestnut">:chestnut:</span> | `:chestnut:` | chestnut |  |
 | <span id="bread">:bread:</span> | `:bread:` | bread | toast |
 | <span id="croissant">:croissant:</span> | `:croissant:` | croissant |  |
@@ -782,6 +806,7 @@
 | <span id="beers">:beers:</span> | `:beers:` | clinking beer mugs | drinks |
 | <span id="clinking_glasses">:clinking_glasses:</span> | `:clinking_glasses:` | clinking glasses | cheers, toast |
 | <span id="tumbler_glass">:tumbler_glass:</span> | `:tumbler_glass:` | tumbler glass | whisky |
+| <span id="pouring_liquid">:pouring_liquid:</span> | `:pouring_liquid:` | pouring liquid |  |
 | <span id="cup_with_straw">:cup_with_straw:</span> | `:cup_with_straw:` | cup with straw |  |
 | <span id="bubble_tea">:bubble_tea:</span> | `:bubble_tea:` | bubble tea |  |
 | <span id="beverage_box">:beverage_box:</span> | `:beverage_box:` | beverage box |  |
@@ -792,6 +817,7 @@
 | <span id="fork_and_knife">:fork_and_knife:</span> | `:fork_and_knife:` | fork and knife | cutlery |
 | <span id="spoon">:spoon:</span> | `:spoon:` | spoon |  |
 | <span id="hocho">:hocho:</span> | `:hocho:` <br /> `:knife:` | kitchen knife | cut, chop |
+| <span id="jar">:jar:</span> | `:jar:` | jar |  |
 | <span id="amphora">:amphora:</span> | `:amphora:` | amphora |  |
 
 ## Travel & Places
@@ -859,6 +885,7 @@
 | <span id="bridge_at_night">:bridge_at_night:</span> | `:bridge_at_night:` | bridge at night |  |
 | <span id="hotsprings">:hotsprings:</span> | `:hotsprings:` | hot springs |  |
 | <span id="carousel_horse">:carousel_horse:</span> | `:carousel_horse:` | carousel horse |  |
+| <span id="playground_slide">:playground_slide:</span> | `:playground_slide:` | playground slide |  |
 | <span id="ferris_wheel">:ferris_wheel:</span> | `:ferris_wheel:` | ferris wheel |  |
 | <span id="roller_coaster">:roller_coaster:</span> | `:roller_coaster:` | roller coaster |  |
 | <span id="barber">:barber:</span> | `:barber:` | barber pole |  |
@@ -907,12 +934,14 @@
 | <span id="railway_track">:railway_track:</span> | `:railway_track:` | railway track |  |
 | <span id="oil_drum">:oil_drum:</span> | `:oil_drum:` | oil drum |  |
 | <span id="fuelpump">:fuelpump:</span> | `:fuelpump:` | fuel pump |  |
+| <span id="wheel">:wheel:</span> | `:wheel:` | wheel |  |
 | <span id="rotating_light">:rotating_light:</span> | `:rotating_light:` | police car light | 911, emergency |
 | <span id="traffic_light">:traffic_light:</span> | `:traffic_light:` | horizontal traffic light |  |
 | <span id="vertical_traffic_light">:vertical_traffic_light:</span> | `:vertical_traffic_light:` | vertical traffic light | semaphore |
 | <span id="stop_sign">:stop_sign:</span> | `:stop_sign:` | stop sign |  |
 | <span id="construction">:construction:</span> | `:construction:` | construction | wip |
 | <span id="anchor">:anchor:</span> | `:anchor:` | anchor | ship |
+| <span id="ring_buoy">:ring_buoy:</span> | `:ring_buoy:` | ring buoy | life preserver |
 | <span id="boat">:boat:</span> | `:boat:` <br /> `:sailboat:` | sailboat |  |
 | <span id="canoe">:canoe:</span> | `:canoe:` | canoe |  |
 | <span id="speedboat">:speedboat:</span> | `:speedboat:` | speedboat | ship |
@@ -1079,6 +1108,7 @@
 | <span id="crystal_ball">:crystal_ball:</span> | `:crystal_ball:` | crystal ball | fortune |
 | <span id="magic_wand">:magic_wand:</span> | `:magic_wand:` | magic wand |  |
 | <span id="nazar_amulet">:nazar_amulet:</span> | `:nazar_amulet:` | nazar amulet |  |
+| <span id="hamsa">:hamsa:</span> | `:hamsa:` | hamsa |  |
 | <span id="video_game">:video_game:</span> | `:video_game:` | video game | play, controller, console |
 | <span id="joystick">:joystick:</span> | `:joystick:` | joystick |  |
 | <span id="slot_machine">:slot_machine:</span> | `:slot_machine:` | slot machine |  |
@@ -1086,6 +1116,7 @@
 | <span id="jigsaw">:jigsaw:</span> | `:jigsaw:` | puzzle piece |  |
 | <span id="teddy_bear">:teddy_bear:</span> | `:teddy_bear:` | teddy bear |  |
 | <span id="pinata">:pinata:</span> | `:pinata:` | piñata |  |
+| <span id="mirror_ball">:mirror_ball:</span> | `:mirror_ball:` | mirror ball | disco, party |
 | <span id="nesting_dolls">:nesting_dolls:</span> | `:nesting_dolls:` | nesting dolls |  |
 | <span id="spades">:spades:</span> | `:spades:` | spade suit |  |
 | <span id="hearts">:hearts:</span> | `:hearts:` | heart suit |  |
@@ -1186,6 +1217,7 @@
 | <span id="pager">:pager:</span> | `:pager:` | pager |  |
 | <span id="fax">:fax:</span> | `:fax:` | fax machine |  |
 | <span id="battery">:battery:</span> | `:battery:` | battery | power |
+| <span id="low_battery">:low_battery:</span> | `:low_battery:` | low battery |  |
 | <span id="electric_plug">:electric_plug:</span> | `:electric_plug:` | electric plug |  |
 | <span id="computer">:computer:</span> | `:computer:` | laptop | desktop, screen |
 | <span id="desktop_computer">:desktop_computer:</span> | `:desktop_computer:` | desktop computer |  |
@@ -1326,7 +1358,9 @@
 | <span id="drop_of_blood">:drop_of_blood:</span> | `:drop_of_blood:` | drop of blood |  |
 | <span id="pill">:pill:</span> | `:pill:` | pill | health, medicine |
 | <span id="adhesive_bandage">:adhesive_bandage:</span> | `:adhesive_bandage:` | adhesive bandage |  |
+| <span id="crutch">:crutch:</span> | `:crutch:` | crutch |  |
 | <span id="stethoscope">:stethoscope:</span> | `:stethoscope:` | stethoscope |  |
+| <span id="x_ray">:x_ray:</span> | `:x_ray:` | x-ray |  |
 | <span id="door">:door:</span> | `:door:` | door |  |
 | <span id="elevator">:elevator:</span> | `:elevator:` | elevator |  |
 | <span id="mirror">:mirror:</span> | `:mirror:` | mirror |  |
@@ -1347,6 +1381,7 @@
 | <span id="roll_of_paper">:roll_of_paper:</span> | `:roll_of_paper:` | roll of paper | toilet |
 | <span id="bucket">:bucket:</span> | `:bucket:` | bucket |  |
 | <span id="soap">:soap:</span> | `:soap:` | soap |  |
+| <span id="bubbles">:bubbles:</span> | `:bubbles:` | bubbles |  |
 | <span id="toothbrush">:toothbrush:</span> | `:toothbrush:` | toothbrush |  |
 | <span id="sponge">:sponge:</span> | `:sponge:` | sponge |  |
 | <span id="fire_extinguisher">:fire_extinguisher:</span> | `:fire_extinguisher:` | fire extinguisher |  |
@@ -1357,6 +1392,7 @@
 | <span id="funeral_urn">:funeral_urn:</span> | `:funeral_urn:` | funeral urn |  |
 | <span id="moyai">:moyai:</span> | `:moyai:` | moai | stone |
 | <span id="placard">:placard:</span> | `:placard:` | placard |  |
+| <span id="identification_card">:identification_card:</span> | `:identification_card:` | identification card |  |
 
 ## Symbols
 
@@ -1465,6 +1501,7 @@
 | <span id="heavy_plus_sign">:heavy_plus_sign:</span> | `:heavy_plus_sign:` | plus |  |
 | <span id="heavy_minus_sign">:heavy_minus_sign:</span> | `:heavy_minus_sign:` | minus |  |
 | <span id="heavy_division_sign">:heavy_division_sign:</span> | `:heavy_division_sign:` | divide |  |
+| <span id="heavy_equals_sign">:heavy_equals_sign:</span> | `:heavy_equals_sign:` | heavy equals sign |  |
 | <span id="infinity">:infinity:</span> | `:infinity:` | infinity |  |
 | <span id="bangbang">:bangbang:</span> | `:bangbang:` | double exclamation mark |  |
 | <span id="interrobang">:interrobang:</span> | `:interrobang:` | exclamation question mark |  |
