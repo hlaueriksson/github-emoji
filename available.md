@@ -618,6 +618,7 @@
 | :fish: | `:fish:` |
 | :fish_cake: | `:fish_cake:` |
 | :fishing_pole_and_fish: | `:fishing_pole_and_fish:` |
+| :fishsticks: | `:fishsticks:` |
 | :fist: | `:fist:` |
 | :fist_left: | `:fist_left:` |
 | :fist_oncoming: | `:fist_oncoming:` |
