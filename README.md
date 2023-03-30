@@ -53,6 +53,7 @@
 | <span id="grimacing">:grimacing:</span> | `:grimacing:` | grimacing face |  |
 | <span id="face_exhaling">:face_exhaling:</span> | `:face_exhaling:` | face exhaling |  |
 | <span id="lying_face">:lying_face:</span> | `:lying_face:` | lying face | liar |
+| <span id="shaking_face">:shaking_face:</span> | `:shaking_face:` | shaking face | shock |
 | <span id="relieved">:relieved:</span> | `:relieved:` | relieved face | whew |
 | <span id="pensive">:pensive:</span> | `:pensive:` | pensive face |  |
 | <span id="sleepy">:sleepy:</span> | `:sleepy:` | sleepy face | tired |
@@ -103,7 +104,7 @@
 | <span id="tired_face">:tired_face:</span> | `:tired_face:` | tired face | upset, whine |
 | <span id="yawning_face">:yawning_face:</span> | `:yawning_face:` | yawning face |  |
 | <span id="triumph">:triumph:</span> | `:triumph:` | face with steam from nose | smug |
-| <span id="rage">:rage:</span> | `:rage:` <br /> `:pout:` | pouting face | angry |
+| <span id="rage">:rage:</span> | `:rage:` <br /> `:pout:` | enraged face | angry |
 | <span id="angry">:angry:</span> | `:angry:` | angry face | mad, annoyed |
 | <span id="cursing_face">:cursing_face:</span> | `:cursing_face:` | face with symbols on mouth | foul |
 | <span id="smiling_imp">:smiling_imp:</span> | `:smiling_imp:` | smiling face with horns | devil, evil, horns |
@@ -130,7 +131,6 @@
 | <span id="see_no_evil">:see_no_evil:</span> | `:see_no_evil:` | see-no-evil monkey | monkey, blind, ignore |
 | <span id="hear_no_evil">:hear_no_evil:</span> | `:hear_no_evil:` | hear-no-evil monkey | monkey, deaf |
 | <span id="speak_no_evil">:speak_no_evil:</span> | `:speak_no_evil:` | speak-no-evil monkey | monkey, mute, hush |
-| <span id="kiss">:kiss:</span> | `:kiss:` | kiss mark | lipstick |
 | <span id="love_letter">:love_letter:</span> | `:love_letter:` | love letter | email, envelope |
 | <span id="cupid">:cupid:</span> | `:cupid:` | heart with arrow | love, heart |
 | <span id="gift_heart">:gift_heart:</span> | `:gift_heart:` | heart with ribbon | chocolates |
@@ -145,14 +145,18 @@
 | <span id="heart_on_fire">:heart_on_fire:</span> | `:heart_on_fire:` | heart on fire |  |
 | <span id="mending_heart">:mending_heart:</span> | `:mending_heart:` | mending heart |  |
 | <span id="heart">:heart:</span> | `:heart:` | red heart | love |
+| <span id="pink_heart">:pink_heart:</span> | `:pink_heart:` | pink heart |  |
 | <span id="orange_heart">:orange_heart:</span> | `:orange_heart:` | orange heart |  |
 | <span id="yellow_heart">:yellow_heart:</span> | `:yellow_heart:` | yellow heart |  |
 | <span id="green_heart">:green_heart:</span> | `:green_heart:` | green heart |  |
 | <span id="blue_heart">:blue_heart:</span> | `:blue_heart:` | blue heart |  |
+| <span id="light_blue_heart">:light_blue_heart:</span> | `:light_blue_heart:` | light blue heart |  |
 | <span id="purple_heart">:purple_heart:</span> | `:purple_heart:` | purple heart |  |
 | <span id="brown_heart">:brown_heart:</span> | `:brown_heart:` | brown heart |  |
 | <span id="black_heart">:black_heart:</span> | `:black_heart:` | black heart |  |
+| <span id="grey_heart">:grey_heart:</span> | `:grey_heart:` | grey heart |  |
 | <span id="white_heart">:white_heart:</span> | `:white_heart:` | white heart |  |
+| <span id="kiss">:kiss:</span> | `:kiss:` | kiss mark | lipstick |
 | <span id="100">:100:</span> | `:100:` | hundred points | score, perfect |
 | <span id="anger">:anger:</span> | `:anger:` | anger symbol | angry |
 | <span id="boom">:boom:</span> | `:boom:` <br /> `:collision:` | collision | explode |
@@ -160,13 +164,12 @@
 | <span id="sweat_drops">:sweat_drops:</span> | `:sweat_drops:` | sweat droplets | water, workout |
 | <span id="dash">:dash:</span> | `:dash:` | dashing away | wind, blow, fast |
 | <span id="hole">:hole:</span> | `:hole:` | hole |  |
-| <span id="bomb">:bomb:</span> | `:bomb:` | bomb | boom |
 | <span id="speech_balloon">:speech_balloon:</span> | `:speech_balloon:` | speech balloon | comment |
 | <span id="eye_speech_bubble">:eye_speech_bubble:</span> | `:eye_speech_bubble:` | eye in speech bubble |  |
 | <span id="left_speech_bubble">:left_speech_bubble:</span> | `:left_speech_bubble:` | left speech bubble |  |
 | <span id="right_anger_bubble">:right_anger_bubble:</span> | `:right_anger_bubble:` | right anger bubble |  |
 | <span id="thought_balloon">:thought_balloon:</span> | `:thought_balloon:` | thought balloon | thinking |
-| <span id="zzz">:zzz:</span> | `:zzz:` | zzz | sleeping |
+| <span id="zzz">:zzz:</span> | `:zzz:` | ZZZ | sleeping |
 
 ## People & Body
 
@@ -181,6 +184,8 @@
 | <span id="leftwards_hand">:leftwards_hand:</span> | `:leftwards_hand:` | leftwards hand |  |
 | <span id="palm_down_hand">:palm_down_hand:</span> | `:palm_down_hand:` | palm down hand |  |
 | <span id="palm_up_hand">:palm_up_hand:</span> | `:palm_up_hand:` | palm up hand |  |
+| <span id="leftwards_pushing_hand">:leftwards_pushing_hand:</span> | `:leftwards_pushing_hand:` | leftwards pushing hand |  |
+| <span id="rightwards_pushing_hand">:rightwards_pushing_hand:</span> | `:rightwards_pushing_hand:` | rightwards pushing hand |  |
 | <span id="ok_hand">:ok_hand:</span> | `:ok_hand:` | OK hand |  |
 | <span id="pinched_fingers">:pinched_fingers:</span> | `:pinched_fingers:` | pinched fingers |  |
 | <span id="pinching_hand">:pinching_hand:</span> | `:pinching_hand:` | pinching hand |  |
@@ -558,6 +563,8 @@
 | <span id="tiger2">:tiger2:</span> | `:tiger2:` | tiger |  |
 | <span id="leopard">:leopard:</span> | `:leopard:` | leopard |  |
 | <span id="horse">:horse:</span> | `:horse:` | horse face |  |
+| <span id="moose">:moose:</span> | `:moose:` | moose | canada |
+| <span id="donkey">:donkey:</span> | `:donkey:` | donkey | mule |
 | <span id="racehorse">:racehorse:</span> | `:racehorse:` | horse | speed |
 | <span id="unicorn">:unicorn:</span> | `:unicorn:` | unicorn |  |
 | <span id="zebra">:zebra:</span> | `:zebra:` | zebra |  |
@@ -620,6 +627,9 @@
 | <span id="flamingo">:flamingo:</span> | `:flamingo:` | flamingo |  |
 | <span id="peacock">:peacock:</span> | `:peacock:` | peacock |  |
 | <span id="parrot">:parrot:</span> | `:parrot:` | parrot |  |
+| <span id="wing">:wing:</span> | `:wing:` | wing | fly |
+| <span id="black_bird">:black_bird:</span> | `:black_bird:` | black bird |  |
+| <span id="goose">:goose:</span> | `:goose:` | goose | honk |
 | <span id="frog">:frog:</span> | `:frog:` | frog |  |
 | <span id="crocodile">:crocodile:</span> | `:crocodile:` | crocodile |  |
 | <span id="turtle">:turtle:</span> | `:turtle:` | turtle | slow |
@@ -640,6 +650,7 @@
 | <span id="octopus">:octopus:</span> | `:octopus:` | octopus |  |
 | <span id="shell">:shell:</span> | `:shell:` | spiral shell | sea, beach |
 | <span id="coral">:coral:</span> | `:coral:` | coral |  |
+| <span id="jellyfish">:jellyfish:</span> | `:jellyfish:` | jellyfish |  |
 | <span id="snail">:snail:</span> | `:snail:` | snail | slow |
 | <span id="butterfly">:butterfly:</span> | `:butterfly:` | butterfly |  |
 | <span id="bug">:bug:</span> | `:bug:` | bug |  |
@@ -667,6 +678,7 @@
 | <span id="sunflower">:sunflower:</span> | `:sunflower:` | sunflower |  |
 | <span id="blossom">:blossom:</span> | `:blossom:` | blossom |  |
 | <span id="tulip">:tulip:</span> | `:tulip:` | tulip | flower |
+| <span id="hyacinth">:hyacinth:</span> | `:hyacinth:` | hyacinth |  |
 | <span id="seedling">:seedling:</span> | `:seedling:` | seedling | plant |
 | <span id="potted_plant">:potted_plant:</span> | `:potted_plant:` | potted plant |  |
 | <span id="evergreen_tree">:evergreen_tree:</span> | `:evergreen_tree:` | evergreen tree | wood |
@@ -682,6 +694,7 @@
 | <span id="leaves">:leaves:</span> | `:leaves:` | leaf fluttering in wind | leaf |
 | <span id="empty_nest">:empty_nest:</span> | `:empty_nest:` | empty nest |  |
 | <span id="nest_with_eggs">:nest_with_eggs:</span> | `:nest_with_eggs:` | nest with eggs |  |
+| <span id="mushroom">:mushroom:</span> | `:mushroom:` | mushroom | fungus |
 
 ## Food & Drink
 
@@ -718,10 +731,11 @@
 | <span id="broccoli">:broccoli:</span> | `:broccoli:` | broccoli |  |
 | <span id="garlic">:garlic:</span> | `:garlic:` | garlic |  |
 | <span id="onion">:onion:</span> | `:onion:` | onion |  |
-| <span id="mushroom">:mushroom:</span> | `:mushroom:` | mushroom |  |
 | <span id="peanuts">:peanuts:</span> | `:peanuts:` | peanuts |  |
 | <span id="beans">:beans:</span> | `:beans:` | beans |  |
 | <span id="chestnut">:chestnut:</span> | `:chestnut:` | chestnut |  |
+| <span id="ginger_root">:ginger_root:</span> | `:ginger_root:` | ginger root |  |
+| <span id="pea_pod">:pea_pod:</span> | `:pea_pod:` | pea pod |  |
 | <span id="bread">:bread:</span> | `:bread:` | bread | toast |
 | <span id="croissant">:croissant:</span> | `:croissant:` | croissant |  |
 | <span id="baguette_bread">:baguette_bread:</span> | `:baguette_bread:` | baguette bread |  |
@@ -1104,11 +1118,10 @@
 | <span id="dart">:dart:</span> | `:dart:` | bullseye | target |
 | <span id="yo_yo">:yo_yo:</span> | `:yo_yo:` | yo-yo |  |
 | <span id="kite">:kite:</span> | `:kite:` | kite |  |
+| <span id="gun">:gun:</span> | `:gun:` | water pistol | shoot, weapon |
 | <span id="8ball">:8ball:</span> | `:8ball:` | pool 8 ball | pool, billiards |
 | <span id="crystal_ball">:crystal_ball:</span> | `:crystal_ball:` | crystal ball | fortune |
 | <span id="magic_wand">:magic_wand:</span> | `:magic_wand:` | magic wand |  |
-| <span id="nazar_amulet">:nazar_amulet:</span> | `:nazar_amulet:` | nazar amulet |  |
-| <span id="hamsa">:hamsa:</span> | `:hamsa:` | hamsa |  |
 | <span id="video_game">:video_game:</span> | `:video_game:` | video game | play, controller, console |
 | <span id="joystick">:joystick:</span> | `:joystick:` | joystick |  |
 | <span id="slot_machine">:slot_machine:</span> | `:slot_machine:` | slot machine |  |
@@ -1158,6 +1171,7 @@
 | <span id="shorts">:shorts:</span> | `:shorts:` | shorts |  |
 | <span id="bikini">:bikini:</span> | `:bikini:` | bikini | beach |
 | <span id="womans_clothes">:womans_clothes:</span> | `:womans_clothes:` | woman’s clothes |  |
+| <span id="folding_hand_fan">:folding_hand_fan:</span> | `:folding_hand_fan:` | folding hand fan | sensu |
 | <span id="purse">:purse:</span> | `:purse:` | purse |  |
 | <span id="handbag">:handbag:</span> | `:handbag:` | handbag | bag |
 | <span id="pouch">:pouch:</span> | `:pouch:` | clutch bag | bag |
@@ -1172,6 +1186,7 @@
 | <span id="sandal">:sandal:</span> | `:sandal:` | woman’s sandal | shoe |
 | <span id="ballet_shoes">:ballet_shoes:</span> | `:ballet_shoes:` | ballet shoes |  |
 | <span id="boot">:boot:</span> | `:boot:` | woman’s boot |  |
+| <span id="hair_pick">:hair_pick:</span> | `:hair_pick:` | hair pick |  |
 | <span id="crown">:crown:</span> | `:crown:` | crown | king, queen, royal |
 | <span id="womans_hat">:womans_hat:</span> | `:womans_hat:` | woman’s hat |  |
 | <span id="tophat">:tophat:</span> | `:tophat:` | top hat | hat, classy |
@@ -1210,6 +1225,8 @@
 | <span id="banjo">:banjo:</span> | `:banjo:` | banjo |  |
 | <span id="drum">:drum:</span> | `:drum:` | drum |  |
 | <span id="long_drum">:long_drum:</span> | `:long_drum:` | long drum |  |
+| <span id="maracas">:maracas:</span> | `:maracas:` | maracas | shaker |
+| <span id="flute">:flute:</span> | `:flute:` | flute | recorder |
 | <span id="iphone">:iphone:</span> | `:iphone:` | mobile phone | smartphone, mobile |
 | <span id="calling">:calling:</span> | `:calling:` | mobile phone with arrow | call, incoming |
 | <span id="phone">:phone:</span> | `:phone:` <br /> `:telephone:` | telephone |  |
@@ -1329,7 +1346,7 @@
 | <span id="hammer_and_wrench">:hammer_and_wrench:</span> | `:hammer_and_wrench:` | hammer and wrench |  |
 | <span id="dagger">:dagger:</span> | `:dagger:` | dagger |  |
 | <span id="crossed_swords">:crossed_swords:</span> | `:crossed_swords:` | crossed swords |  |
-| <span id="gun">:gun:</span> | `:gun:` | water pistol | shoot, weapon |
+| <span id="bomb">:bomb:</span> | `:bomb:` | bomb | boom |
 | <span id="boomerang">:boomerang:</span> | `:boomerang:` | boomerang |  |
 | <span id="bow_and_arrow">:bow_and_arrow:</span> | `:bow_and_arrow:` | bow and arrow | archery |
 | <span id="shield">:shield:</span> | `:shield:` | shield |  |
@@ -1390,6 +1407,8 @@
 | <span id="coffin">:coffin:</span> | `:coffin:` | coffin | funeral |
 | <span id="headstone">:headstone:</span> | `:headstone:` | headstone |  |
 | <span id="funeral_urn">:funeral_urn:</span> | `:funeral_urn:` | funeral urn |  |
+| <span id="nazar_amulet">:nazar_amulet:</span> | `:nazar_amulet:` | nazar amulet |  |
+| <span id="hamsa">:hamsa:</span> | `:hamsa:` | hamsa |  |
 | <span id="moyai">:moyai:</span> | `:moyai:` | moai | stone |
 | <span id="placard">:placard:</span> | `:placard:` | placard |  |
 | <span id="identification_card">:identification_card:</span> | `:identification_card:` | identification card |  |
@@ -1457,6 +1476,7 @@
 | <span id="peace_symbol">:peace_symbol:</span> | `:peace_symbol:` | peace symbol |  |
 | <span id="menorah">:menorah:</span> | `:menorah:` | menorah |  |
 | <span id="six_pointed_star">:six_pointed_star:</span> | `:six_pointed_star:` | dotted six-pointed star |  |
+| <span id="khanda">:khanda:</span> | `:khanda:` | khanda |  |
 | <span id="aries">:aries:</span> | `:aries:` | Aries |  |
 | <span id="taurus">:taurus:</span> | `:taurus:` | Taurus |  |
 | <span id="gemini">:gemini:</span> | `:gemini:` | Gemini |  |
@@ -1492,6 +1512,7 @@
 | <span id="low_brightness">:low_brightness:</span> | `:low_brightness:` | dim button |  |
 | <span id="high_brightness">:high_brightness:</span> | `:high_brightness:` | bright button |  |
 | <span id="signal_strength">:signal_strength:</span> | `:signal_strength:` | antenna bars | wifi |
+| <span id="wireless">:wireless:</span> | `:wireless:` | wireless | wifi |
 | <span id="vibration_mode">:vibration_mode:</span> | `:vibration_mode:` | vibration mode |  |
 | <span id="mobile_phone_off">:mobile_phone_off:</span> | `:mobile_phone_off:` | mobile phone off | mute, off |
 | <span id="female_sign">:female_sign:</span> | `:female_sign:` | female sign |  |

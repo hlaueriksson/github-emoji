@@ -16,6 +16,7 @@
 | :abc: | `:abc:` |
 | :abcd: | `:abcd:` |
 | :accept: | `:accept:` |
+| :accessibility: | `:accessibility:` |
 | :accordion: | `:accordion:` |
 | :adhesive_bandage: | `:adhesive_bandage:` |
 | :adult: | `:adult:` |
@@ -459,6 +460,7 @@
 | :deer: | `:deer:` |
 | :denmark: | `:denmark:` |
 | :department_store: | `:department_store:` |
+| :dependabot: | `:dependabot:` |
 | :derelict_house: | `:derelict_house:` |
 | :desert: | `:desert:` |
 | :desert_island: | `:desert_island:` |
