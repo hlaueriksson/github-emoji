@@ -394,6 +394,7 @@
 | :cookie: | `:cookie:` |
 | :cool: | `:cool:` |
 | :cop: | `:cop:` |
+| :copilot: | `:copilot:` |
 | :copyright: | `:copyright:` |
 | :coral: | `:coral:` |
 | :corn: | `:corn:` |
