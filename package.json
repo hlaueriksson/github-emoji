@@ -6,7 +6,7 @@
     "start": "node run.js"
   },
   "dependencies": {
-    "lodash": "^4.17.21",
+    "lodash": "^4.18.1",
     "node-fetch": "^3.3.2"
   },
   "description": "GitHub Emoji documentation generator",
